@@ -124,3 +124,5 @@ STATIC_URL = "/static/"
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+COINBASE_COMMERCE_API_KEY = "9f803369-4cb5-400a-8dc9-a09767002f39"

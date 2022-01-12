@@ -25,3 +25,11 @@ def home_view(request):
             "charge": charge,
         },
     )
+
+
+def success_view(request):
+    return render(request, "success.html", {})
+
+
+def cancel_view(request):
+    return render(request, "cancel.html", {})
